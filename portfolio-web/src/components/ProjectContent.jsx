@@ -18,7 +18,7 @@ function ProjectContent(){
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                     <div className="space-y-2">
                         <img
-                        src="/pictures/Screenshot%20(76).png"
+                        src="./pictures/Screenshot%20(76).png"
                         alt="Home Page"
                         className="rounded shadow w-full cursor-zoom-in transition-transform duration-300 hover:scale-250 z-10"
                         />
@@ -30,7 +30,7 @@ function ProjectContent(){
 
                     <div className="space-y-2">
                         <img
-                        src="/pictures/Screenshot%20(77).png"
+                        src="./pictures/Screenshot%20(77).png"
                         alt="Registration Page"
                         className="rounded shadow w-full cursor-zoom-in transition-transform duration-300 hover:scale-250 z-10"
                         />
@@ -42,7 +42,7 @@ function ProjectContent(){
 
                     <div className="space-y-2">
                         <img
-                        src="/pictures/Screenshot%20(80).png"
+                        src="./pictures/Screenshot%20(80).png"
                         alt="Login Page"
                         className="rounded shadow w-full cursor-zoom-in transition-transform duration-300 hover:scale-250 z-10"
                         />
@@ -55,7 +55,7 @@ function ProjectContent(){
 
                     <div className="space-y-2">
                         <img
-                        src="/pictures/Screenshot%20(78).png"
+                        src="./pictures/Screenshot%20(78).png"
                         alt="Teacher View Page"
                         className="rounded shadow w-full cursor-zoom-in transition-transform duration-300 hover:scale-250 z-10"
                         />
@@ -67,7 +67,7 @@ function ProjectContent(){
 
                     <div className="space-y-2">
                         <img
-                        src="/pictures/Screenshot%20(79).png"
+                        src="./pictures/Screenshot%20(79).png"
                         alt="Course Page"
                         className="rounded shadow w-full cursor-zoom-in transition-transform duration-300 hover:scale-250 z-10"
                         />
@@ -79,7 +79,7 @@ function ProjectContent(){
 
                     <div className="space-y-2">
                         <img
-                        src="/pictures/Screenshot%20(80).png"
+                        src="./pictures/Screenshot%20(80).png"
                         alt="Assement Page"
                         className="rounded shadow w-full cursor-zoom-in transition-transform duration-300 hover:scale-250 z-10"
                         />
