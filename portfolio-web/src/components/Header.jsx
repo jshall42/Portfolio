@@ -48,9 +48,9 @@ function Header() {
               </Link>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 text-gray-900 hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500">
-                Projects
-              </a>
+              <Link to="/project" className="block py-2 px-3 text-gray-900 hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500">
+                Project
+              </Link>
             </li>
             <li>
               <Link to="/contact" className="block py-2 px-3 text-gray-900 hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500">

@@ -7,7 +7,13 @@ module.exports = {
     extend: {
       colors: {
         primary: "#ff4800"
-      }
+      },
+      scale: {
+        '175': '1.75',
+        '200': '2',
+        '250': '2.5',
+        '300': '3',
+      },
     },
     screens: {
       sm: '640px',   // Small (mobile)
@@ -17,5 +23,7 @@ module.exports = {
       '2xl': '1536px',
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+  ],
 }

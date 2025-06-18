@@ -3,6 +3,7 @@ import Header from "./components/Header"
 import HomeContent from "./components/HomeContent"
 import AboutContent from "./components/AboutContent"
 import ContactContent from "./components/ContactContent"
+import ProjectContent from "./components/ProjectContent"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<HomeContent />} />
         <Route path="/about" element={<AboutContent />} />
         <Route path="/contact" element={<ContactContent />} />
+        <Route path="/project" element={<ProjectContent />} />
       </Routes>
     </Router>
       
