@@ -30,7 +30,7 @@ function ProjectContent(){
 
                     <div className="space-y-2">
                         <img
-                        src={`${process.env.PUBLIC_URL}/Screenshot%20(77).png`}
+                        src={`${process.env.PUBLIC_URL}/pictures/Screenshot%20(77).png`}
                         alt="Registration Page"
                         className="rounded shadow w-full cursor-zoom-in transition-transform duration-300 hover:scale-250 z-10"
                         />
@@ -42,7 +42,7 @@ function ProjectContent(){
 
                     <div className="space-y-2">
                         <img
-                        src={`${process.env.PUBLIC_URL}/Screenshot%20(80).png`}
+                        src={`${process.env.PUBLIC_URL}/pictures/Screenshot%20(80).png`}
                         alt="Login Page"
                         className="rounded shadow w-full cursor-zoom-in transition-transform duration-300 hover:scale-250 z-10"
                         />
@@ -55,7 +55,7 @@ function ProjectContent(){
 
                     <div className="space-y-2">
                         <img
-                        src={`${process.env.PUBLIC_URL}/Screenshot%20(78).png`}
+                        src={`${process.env.PUBLIC_URL}/pictures/Screenshot%20(78).png`}
                         alt="Teacher View Page"
                         className="rounded shadow w-full cursor-zoom-in transition-transform duration-300 hover:scale-250 z-10"
                         />
@@ -67,7 +67,7 @@ function ProjectContent(){
 
                     <div className="space-y-2">
                         <img
-                        src={`${process.env.PUBLIC_URL}/Screenshot%20(79).png`}
+                        src={`${process.env.PUBLIC_URL}/pictures/Screenshot%20(79).png`}
                         alt="Course Page"
                         className="rounded shadow w-full cursor-zoom-in transition-transform duration-300 hover:scale-250 z-10"
                         />
@@ -79,7 +79,7 @@ function ProjectContent(){
 
                     <div className="space-y-2">
                         <img
-                        src={`${process.env.PUBLIC_URL}/Screenshot%20(81).png`}
+                        src={`${process.env.PUBLIC_URL}/pictures/Screenshot%20(81).png`}
                         alt="Assement Page"
                         className="rounded shadow w-full cursor-zoom-in transition-transform duration-300 hover:scale-250 z-10"
                         />
@@ -133,7 +133,7 @@ function ProjectContent(){
                     <div className="bg-gray-50 p-4 rounded-lg">
                         <p className="text-sm text-gray-600 mb-2">Project Report:</p>
                         <a 
-                            href="/Project_Team_6.pdf" 
+                            href={`${process.env.PUBLIC_URL}/Project_Team_6.pdf`}
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="text-blue-600 underline hover:text-blue-800"
