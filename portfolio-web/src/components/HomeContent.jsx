@@ -6,7 +6,7 @@ function HomeContent() {
         {/* Left side: Resume */}
         <div className="w-full md:w-1/2 bg-white h-[600px] md:h-screen">
             <iframe
-            src={`${process.env.PUBLIC_URL}/JacobHall_Resume.pdf`}
+            src={`${process.env.PUBLIC_URL}/JacobHall_Resume_.pdf`}
             className="w-full h-full"
             title="Resume PDF"
             style={{ border: 'none' }}
